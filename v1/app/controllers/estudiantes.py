@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 
-# ESTA ES LA VARIABLE QUE BUSCA EL __init__.py (Asegúrate de que se llame así)
+
 estudiantes_endpoints = Blueprint('estudiantes_endpoints', __name__)
 
 @estudiantes_endpoints.route('/hola', methods=['GET'])
