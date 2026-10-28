@@ -1,6 +1,6 @@
-# API Estudiantes - Práctica 2
+# API Estudiantes - Prácticas 2 y 3
 
-Este proyecto es una API RESTful básica desarrollada en Python utilizando el microframework Flask. Fue creada como parte de la Práctica #2 para el curso de **Desarrollo con Plataformas Abiertas**.
+Este proyecto es una API RESTful básica desarrollada en Python utilizando el microframework Flask. Fue creada para el curso de **Desarrollo con Plataformas Abiertas** e incluye los endpoints de la Práctica 2 y los métodos HTTP (CRUD simulado) de la Práctica 3.
 
 ## 🛠️ Tecnologías utilizadas
 *   **Python** (Lenguaje de programación)
@@ -11,9 +11,10 @@ Este proyecto es una API RESTful básica desarrollada en Python utilizando el mi
 El proyecto está organizado de forma modular para separar la configuración, el arranque y la lógica de las rutas:
 
 ```text
-tareas-plataformas-abiertas/
+tarea-plataforrmas-abiertas/
 │   README.md
 │   .gitignore
+│   requirements.txt
 ├───data/                  # Carpeta reservada para futuras bases de datos
 └───v1/
     ├───run.py             # Archivo principal que arranca la API
